@@ -254,7 +254,7 @@ body {
   .intro__block {
     min-width: 100px;
     position: relative;
-  }
+  } 
 }
 
 /* ========================================= */
@@ -346,6 +346,13 @@ body {
   }
   .services {
     text-align: center;
+  }
+  .service__block:hover .overlay {
+    display: none;
+  }
+  .service__block:hover::after {
+    background: rgba(0, 0, 0, 0.7);
+    width: 40%;
   }
 }
 

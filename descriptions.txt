@@ -1,0 +1,53 @@
+Description of the website layout:
+
+HTML:
+This code includes the HTML structure of the page with various sections and design elements. 
+The website layout is made using classes for styling elements. The main elements include the 
+header, main menu, main content, sections about services, "About Us" section, workflow block,
+contact section, and footer. The page header contains the header (<header>), which contains the 
+logo, the main menu (<nav>), and the content displayed in the header. The main content of the
+page is placed in the <main> tag. It contains the introduction section (<section class="intro">), 
+which contains short blocks with information and images, the services section (<section class="services">), 
+which lists services with images and descriptions, the About Us section (<section class="about">) which 
+contains information about the car service and images, a block with a workflow (<section class="process__container">)
+that describes the steps of car maintenance, and a section with contacts (<section class="contacts">),
+including a feedback form. The footer (<footer>) contains the copyright and a block with social media icons.
+The layout includes the use of containers (<div class="container">) that limit the width of the content to improve 
+its visual appearance on different devices. Styling classes (e.g. <div class="header__menu menu"> and 
+<ul class="menu__list">) are used to give styles to different elements of the page using CSS. 
+
+
+
+CSS:
+This CSS code contains style descriptions for various elements of a web page. The main parts of the description
+can be divided into sections for the header, introduction, services, about, quick and easy procedure, contacts, 
+and footer. The main description of styles starts with resetting the parameters for all elements:
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+This code sets the padding, margin, border, and box-sizing properties to zero for all elements on the page. 
+This helps to ensure that the elements on the page are displayed uniformly. The next block of styles sets
+common values for the font, text color, font size, and properties for all elements:
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+This block sets the font to Poppins, sans-serif for all elements, text color to black, font size to 20px, 
+and other common values. The following sections describe the styles for specific sections of the page, 
+such as the header, introduction, services, about, fast and easy, contacts, and footer.
+Each section contains the corresponding element classes and the corresponding styles for these classes.
+
